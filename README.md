@@ -1,11 +1,14 @@
 # Echoez
-TUI Music Player Made in Bash 
+TUI Music Player
+- [x] Bash
+- [x] Python
+- [=] Rust
 
 ## Features
-- **Simple and Lightweight**: EchoTune provides a minimalist user interface, perfect for quick and easy music playback without any bloat.
+- **Simple and Lightweight**: Echoez provides a minimalist user interface, perfect for quick and easy music playback without any bloat.
 - **Control Playback with Ease**: Use intuitive keyboard shortcuts to play/pause, skip to the next or previous track, and quit the player.
-- **Customizable Playlist**: EchoTune automatically scans your `~/Music` directory for MP3 files, allowing you to easily manage and update your playlist.
-- **Efficient Resource Usage**: Built with Bash scripting and leveraging the power of `mpv`, EchoTune consumes minimal system resources while delivering smooth audio playback.
+- **Customizable Playlist**: Echoez automatically scans your `~/Music` directory for MP3 files, allowing you to easily manage and update your playlist.
+- **Efficient Resource Usage**: Built with Bash scripting and leveraging the power of `mpv`, Echoez consumes minimal system resources while delivering smooth audio playback.
 
 ## Requirements
 - Linux operating system
@@ -36,6 +39,20 @@ chmod +x echoez.sh
 - Next Track: Press n to skip to the next track.
 - Previous Track: Press b to go back to the previous track.
 - Quit: Press q to exit the music player.
+
+## Pyhon Version 
+Due to the limitation of mpv on other audio files. I decided to create another one with python version
+
+**supported**:
+- [x] mp3
+- [x] flac
+- [x] wav
+- [x] ogg
+
+> Requires pygame module to be installed 
+```bash
+pip install pygame
+```
 
 ## Contributing
 Contributions to Echoez are welcome! 
